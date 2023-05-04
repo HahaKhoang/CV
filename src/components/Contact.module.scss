@@ -1,0 +1,55 @@
+.heading {
+  width: 70vw;
+  margin: 0 auto;
+  background-color: black;
+  border-left: 1px solid white;
+}
+
+.title {
+  width: calc(35vw - 30px);
+  margin-left: calc(35vw + 30px);
+  font-size: 2rem;
+}
+
+.line {
+  background-color: white;
+  height: 1px;
+  width: calc(35vw - 30px);
+  margin-left: calc(35vw + 30px);
+}
+
+.container {
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+  background-color: black;
+  padding-bottom: 10rem;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.blurb {
+  width: 100%;
+}
+
+.pitch {
+  margin: 1rem 0 1rem 4rem;
+  text-align: end;
+}
+
+.email {
+  width: 100%;
+}
+
+.contact {
+  font-size: 1.4rem;
+  margin: 1rem 4rem 1rem 0;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration-line: none;
+}

@@ -1,0 +1,19 @@
+.container {
+  width: 70vw;
+  height: 50rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.kathy {
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  height: 70%;
+}
+
+.up {
+  transform: translateY(-100%);
+}
